@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контрольная работа</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section class="feedback">
+        <div class="container">
+            <form class="feedback-form">
+                <h2>Обратная связь</h2>
+
+                <div class="form">
+                    <label for="name">Имя *</label>
+                    <input type="text" id="name" name="name" placeholder="Введите ваше имя" required>
+                </div>
+
+                <div class="form">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" placeholder="example@mail.com" required>
+                </div>
+
+                <div class="form">
+                    <label for="subject">Тип обращения</label>
+                    <select id="subject" name="subject">
+                        <option value="support">Техподдержка</option>
+                        <option value="sales">Отдел продаж</option>
+                        <option value="other">Другое</option>
+                    </select>
+                </div>
+
+                <div class="form">
+                    <label for="message">Сообщение</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Ваш текст..."></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Отправить</button>
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>
